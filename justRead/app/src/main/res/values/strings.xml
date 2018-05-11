@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">JUSTRead!</string>
+    <string name="shortcut1">Nuovo Promemoria</string>
+    <string name="shortcut2">Nuova Nota</string>
+    <string name="shortcut3">Nuovo Luogo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="bottom_sheet_content">content</string>
+
+
+    customTitle
+</resources>

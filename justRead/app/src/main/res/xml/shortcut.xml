@@ -1,0 +1,40 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:targetApi="25">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_ic_plus_black_48dp"
+        android:shortcutId="shortcut1"
+        android:shortcutShortLabel="@string/shortcut1">
+        <intent
+            android:action="com.stefanoeportentosi.notifiche.Fragments.FirstFragment"
+            android:targetClass="com.stefanoeportentosi.notifiche.Activity.Prova"
+            android:targetPackage="com.stefanoeportentosi.notifiche">
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_camera_alt"
+        android:shortcutId="shortcut2"
+        android:shortcutShortLabel="@string/shortcut2">
+        <intent
+            android:action="com.stefanoeportentosi.notifiche.Fragments.SecondFragment"
+            android:targetClass="com.stefanoeportentosi.notifiche.Activity.NewNota"
+            android:targetPackage="com.stefanoeportentosi.notifiche">
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_place"
+        android:shortcutId="shortcut3"
+        android:shortcutShortLabel="@string/shortcut3">
+        <intent
+            android:action="com.stefanoeportentosi.notifiche.Fragments.ForthFragment"
+            android:targetClass="com.stefanoeportentosi.notifiche.Activity.Prova"
+            android:targetPackage="com.stefanoeportentosi.notifiche">
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>
