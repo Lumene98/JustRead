@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/newPlace"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="80dp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:radius="100dp">
+
+        <EditText
+            android:id="@+id/titolonew"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/titolo"
+            android:gravity="center"
+            android:hint="Titolo"
+            android:textColor="@android:color/white" />
+
+        <EditText
+            android:id="@+id/notenew"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:hint="Autore"
+            android:textColor="@android:color/black" />ù
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:hint="Descrizione"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/aggiungiluogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aggiungi" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
